@@ -1,0 +1,148 @@
+/*---------- Base -----------*/
+html{
+    box-sizing: border-box;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+ /*---------- Elements ----------*/
+.wrapper{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family:  "Dosis", serif;
+    font-size: 16px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+   
+/*---------- Header ----------*/
+header .wrapper{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo p{
+    margin-left: 19.95px;
+    font-size: 43.34px;
+    color: black;
+}
+
+header ul{
+    display: flex;
+    gap: 30px;
+}
+
+header ul a{
+     color: black;
+}
+
+header ul a:hover{
+    background-color: #0E5EA1;
+    color: white;
+    border-radius: 10px;
+    padding: 4px 11px;
+
+}
+/*----------- Section Hero -----------*/
+.hero{
+
+    background-image: url(../images/montagnes-alpes@1x\ 1.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.hero .wrapper{
+    background: rgba(0, 0, 0, 70%);
+ 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+
+}
+
+h1{
+    font-size: 36px;
+    margin: 0;
+    color: white;
+}
+
+h2{
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    color: #2FCB48;   
+    margin: 10px 102px 0px 102px;
+    font-weight: 400;
+}
+/*------- Section Activites ----------*/
+.activites .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+article{
+    border-bottom: #0E5EA1 5px solid;
+    padding: 10px;
+}
+
+.image_fin{
+    grid-column: 1/-1;
+}
+
+h3{
+    font-size: 24px;
+    margin: 32px 0px 8px 0px;
+}
+
+article p{
+    font-family: "Roboto", serif;
+    margin: 0px;
+}
+
+article a{
+    color: black;
+}
+
+article a:hover{
+    background-color: #0E5EA1;
+    color: white;
+    border-radius: 10px;
+}
+/*---------- Footer ----------*/
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+}
