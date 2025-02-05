@@ -62,7 +62,7 @@ header ul a{
 header ul a:hover{
     background-color: #0E5EA1;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
 
 
 }
@@ -144,7 +144,7 @@ article a{
     margin-top: auto;
     background-color: #B7B7B7;
     margin-bottom: 18px;
-    border-radius: 10px;
+    border-radius: 5px;
     text-transform: uppercase;
 }
 
