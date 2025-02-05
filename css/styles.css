@@ -55,13 +55,15 @@ header ul{
 
 header ul a{
      color: black;
+    padding: 4px 11px;
+    text-transform: uppercase;
 }
 
 header ul a:hover{
     background-color: #0E5EA1;
     color: white;
     border-radius: 10px;
-    padding: 4px 11px;
+
 
 }
 /*----------- Section Hero -----------*/
@@ -100,16 +102,23 @@ h2{
     font-weight: 400;
 }
 /*------- Section Activites ----------*/
+.activites{
+    background-color: #E3E4E4;
+}
 .activites .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding: 40px 0;
+
 }
 
 article{
     border-bottom: #0E5EA1 5px solid;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
 }
 
 .image_fin{
@@ -124,16 +133,27 @@ h3{
 article p{
     font-family: "Roboto", serif;
     margin: 0px;
+    margin-bottom: 14px;
+    line-height: 160%;
 }
 
-article a{
+article a{    
+    padding: 8px 45px;
     color: black;
+    align-self: center;
+    margin-top: auto;
+    background-color: #B7B7B7;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    text-transform: uppercase;
 }
 
 article a:hover{
     background-color: #0E5EA1;
     color: white;
-    border-radius: 10px;
+
+
+    
 }
 /*---------- Footer ----------*/
 footer{
